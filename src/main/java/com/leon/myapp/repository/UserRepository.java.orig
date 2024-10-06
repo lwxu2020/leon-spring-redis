@@ -1,0 +1,8 @@
+package com.leon.myapp.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.leon.myapp.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+  
+}
